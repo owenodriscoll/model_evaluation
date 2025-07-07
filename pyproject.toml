@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "model_evaluation"
+version = "0.1.0"
+description = "model_evaluation"
+readme = "README.md"
+authors = [
+  { name = "Hector Nieto", email = "hector.nieto.solana@gmail.com " }
+]
+license = { text = "MIT" }
+keywords = ["scattering", "transform", "signal processing"]
+
+dependencies = [
+  "numpy",
+  "scipy"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
